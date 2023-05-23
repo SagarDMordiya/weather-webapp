@@ -1,0 +1,91 @@
+.main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.get-button {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear-button {
+    color: #777;
+    background-color: transparent;
+    border: none;
+}
+
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.weather-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-card {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.weather-card:hover {
+    background-color: #eaeaea;
+}
+
+.temperature {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.humidity {
+    color: #888;
+}
+
+.forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.forecast-card {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.forecast-card:hover {
+    background-color: #eaeaea;
+}
