@@ -18,8 +18,8 @@
             <p class="temperature">Temperature: {{ weather_info.main.temp - 273.15 | number: '1.0-0' }}°C</p>
             <p class="humidity">Humidity: {{ weather_info.main.humidity }}</p>
             <p>Weather: {{ weather_info.weather[0].main }}</p>
+            <span class="hoverText">Click for Forecasting Information</span>
         </div>
-        <span class="hoverText">Click for Forecasting Information</span>
     </div>
 
     <div *ngIf="cityInfo" class="forecast-cards">

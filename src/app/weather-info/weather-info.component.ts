@@ -10,7 +10,7 @@ import { Forecast } from '../model/forcast.model';
 })
 export class WeatherInfoComponent implements OnInit {
   error: any; //To store error message
-  apiKey: string = "41652d6a40b8ef104cc6993e7efcb510"; // API key for OpenWeatherapi
+  apiKey: string = "0e8ce3b7590095360a6403647b589e2f"; // API key for OpenWeatherapi
   weather_info: any; // To store weather information
   city: any = ''; // To store city name
   cityInfo: Weather[] = []; // To store city forcasting info
